@@ -241,7 +241,7 @@ You will see structured JSON messages detailing each `INSERT`, `UPDATE`, and `DE
 
 ### Step 3: Query the Replicated Data in ClickHouse
 
-Connect to Trino to query the final, structured data in the ClickHouse `customers` table.
+Connect to Trino to query the final, structured data in the ClickHouse `customers` table..
 
 ```bash
 # Connect to Trino CLI
