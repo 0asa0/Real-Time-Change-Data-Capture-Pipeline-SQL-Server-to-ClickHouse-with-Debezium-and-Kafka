@@ -4,6 +4,7 @@
 
 This repository provides a complete, containerized demonstration of a real-time Change Data Capture (CDC) pipeline. It captures every row-level change (`INSERT`, `UPDATE`, `DELETE`) from a **Microsoft SQL Server** database, streams these events through **Apache Kafka** using **Debezium**, and loads them into a **ClickHouse** data warehouse for high-performance analytics. The pipeline also includes **Trino** as a federated query engine to analyze the data.
 
+
 This project is a blueprint for building modern, event-driven data architectures that require low-latency replication from transactional systems to analytical platforms.
 
 ## Table of Contents
